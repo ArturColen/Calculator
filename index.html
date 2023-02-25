@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Artur Bomtempo">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <!-- === Favicon === -->
+    <link rel="shortcut icon" href="./assets/favicon/favicon.png" type="image/x-icon">
+    <!-- === CSS File === -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="dark">
+    <div id="container">
+        <!-- === Calculator === -->
+        <div id="calculator" class="dark">
+            <div id="theme-toggler" class="active">
+                <i id="toggler-icon"></i>
+            </div>
+            <div id="display-screen">
+                <div id="display"></div>
+            </div>
+            <div id="buttons">
+                <table>
+                    <tr>
+                        <td> <button class="btn-operator" id="clear">C</button> </td>
+                        <td> <button class="btn-operator" id="(">&#40;</button> </td>
+                        <td> <button class="btn-operator" id=")">&#41;</button> </td>
+                        <td> <button class="btn-operator" id="/">&#247;</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <button class="btn-number" id="7">7</button> </td>
+                        <td> <button class="btn-number" id="8">8</button> </td>
+                        <td> <button class="btn-number" id="9">9</button> </td>
+                        <td> <button class="btn-operator" id="*">&#215;</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <button class="btn-number" id="4">4</button> </td>
+                        <td> <button class="btn-number" id="5">5</button> </td>
+                        <td> <button class="btn-number" id="6">6</button> </td>
+                        <td> <button class="btn-operator" id="-">&#8722;</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <button class="btn-number" id="1">1</button> </td>
+                        <td> <button class="btn-number" id="2">2</button> </td>
+                        <td> <button class="btn-number" id="3">3</button> </td>
+                        <td> <button class="btn-operator" id="+">&#43;</button> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> <button class="btn-number zero" id="0">0</button> </td>
+                        <td> <button class="btn-number" id=".">.</button> </td>
+                        <td> <button id="equal">&#61;</button> </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- === JS File === -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
